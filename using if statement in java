@@ -1,0 +1,12 @@
+
+class Main{
+    public static void main(String[]args){
+        int age =98;
+        if(age<76){
+            System.out.println("Yes boy you are allowed for the marriage");
+        }
+        else{
+            System.out.println("No boy you are not allowed for the marriage");
+        }
+    }
+}
