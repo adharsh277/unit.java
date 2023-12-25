@@ -1,0 +1,23 @@
+*******************************************************************************/
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	   Scanner sc= new Scanner(System.in);
+		int age;
+	    System.out.println("enter you age");
+		age = sc.nextInt();
+		if (age >67){
+		    System.out.println("you are verified");
+		}
+		else if (age==73){
+		    System.out.println("you are  experienced");
+		}
+		else if (age<6){
+		    System.out.println("you are noob player");
+		}
+		else{
+		    System.out.println("you are pro level");
+		}
+	}
+}
